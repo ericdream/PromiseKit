@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0800"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -22,15 +22,29 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63EBEAC41B6151AA0097FA42"
-               BuildableName = "PMKiOSUITests.xctest"
-               BlueprintName = "PMKiOSUITests"
+               BlueprintIdentifier = "63D5C5201D2301E2002D7A62"
+               BuildableName = "PMKUI.xctest"
+               BlueprintName = "PMKTests/UI"
+               ReferencedContainer = "container:PromiseKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "638CDF021AEE734B0023A543"
+               BuildableName = "PMKUI.Host.app"
+               BlueprintName = "PMKTests/UI/Host"
                ReferencedContainer = "container:PromiseKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +54,16 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "638E0ED41AEF16530052E28F"
-               BuildableName = "PMKiOSCategoryTests.xctest"
-               BlueprintName = "PMKiOSCategoryTests"
+               BuildableName = "PMKCategories.iOS.xctest"
+               BlueprintName = "PMKTests/Categories/iOS"
                ReferencedContainer = "container:PromiseKit.xcodeproj">
             </BuildableReference>
             <LocationScenarioReference
@@ -60,9 +75,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63EBEAC41B6151AA0097FA42"
-               BuildableName = "PMKiOSUITests.xctest"
-               BlueprintName = "PMKiOSUITests"
+               BlueprintIdentifier = "63D5C5201D2301E2002D7A62"
+               BuildableName = "PMKUI.xctest"
+               BlueprintName = "PMKTests/UI"
                ReferencedContainer = "container:PromiseKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
